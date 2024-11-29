@@ -1,0 +1,73 @@
+{
+    "HomePage": {
+        "title": "Bonjour le monde!",
+        "desc": "Ceci est un exemple simple d'un composant React"
+    },
+    "auth": {
+        "auth": "Authentification",
+        "connection": "Connexion",
+        "login": "S'identifier",
+        "logout": "Se déconnecter",
+        "register": "S'inscrire",
+        "forgotPassword": "Mot de passe oublié",
+        "resetPassword": "Réinitialiser le mot de passe",
+        "noAccountRegister": "Pas de compte ? Inscrivez-vous ici !",
+        "haveAccountLogin": "Déjà un compte ? Connectez-vous ici !",
+        "orContinueWith": "Ou continuer avec",
+        "welcomeToApp": "Bienvenue sur {appName}{action, select, login {, connectez-vous avec:} register {, inscrivez-vous avec:} other { !}}",
+        "loginWith": "Se connecter avec {provider}",
+        "credentials": {
+            "invalid": "Email ou mot de passe invalide"
+        }
+    },
+    "locale": {
+        "en": "Anglais",
+        "fr": "Français"
+    },
+    "theme": {
+        "light": "Clair",
+        "dark": "Sombre",
+        "auto": "Système"
+    },
+    "form": {
+        "email": {
+            "label": "Email",
+            "placeholder": "Entrez votre email",
+            "error": "L'email est invalide"
+        },
+        "password": {
+            "label": "Mot de passe",
+            "placeholder": "Entrez votre mot de passe",
+            "error": "Le mot de passe est requis",
+            "requirements": {
+                "uppercase": "Le mot de passe doit contenir au moins une lettre majuscule",
+                "lowercase": "Le mot de passe doit contenir au moins une lettre minuscule",
+                "number": "Le mot de passe doit contenir au moins un chiffre",
+                "special": "Le mot de passe doit contenir au moins un caractère spécial",
+                "length": "Le mot de passe doit contenir au moins {length} caractères"
+            }
+        },
+        "confirmPassword": {
+            "label": "Confirmer le mot de passe",
+            "placeholder": "Confirmez votre mot de passe",
+            "error": "Les mots de passe ne correspondent pas"
+        },
+        "name": {
+            "label": "Nom",
+            "placeholder": "Entrez votre nom",
+            "error": "Le nom est requis"
+        },
+        "acceptTermsAndConditions": "J'accepte les <a>termes et conditions</a>",
+        "submit": "Envoyer"
+    },
+    "routes": {
+        "dashboard": "Tableau de bord",
+        "admin": "Administateur",
+        "profile": "Profil",
+        "news": "Actualités",
+        "overview": "Aperçu",
+        "forecasts": "Prévisions",
+        "outlook": "Perspectives",
+        "realTime": "Temps réel"
+    }
+}

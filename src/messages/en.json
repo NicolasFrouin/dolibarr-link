@@ -1,0 +1,73 @@
+{
+    "HomePage": {
+        "title": "Hello world!",
+        "desc": "This is a simple example of a React component"
+    },
+    "auth": {
+        "auth": "Authentication",
+        "connection": "Connection",
+        "login": "Login",
+        "logout": "Logout",
+        "register": "Register",
+        "forgotPassword": "Forgot Password",
+        "resetPassword": "Reset Password",
+        "noAccountRegister": "Don't have an account? Register here!",
+        "haveAccountLogin": "Already have an account? Login here!",
+        "orContinueWith": "Or continue with",
+        "welcomeToApp": "Welcome to {appName}{action, select, login {, login with:} register {, register with:} other {!}}",
+        "loginWith": "Login with {provider}",
+        "credentials": {
+            "invalid": "Invalid email or password"
+        }
+    },
+    "locale": {
+        "en": "English",
+        "fr": "French"
+    },
+    "theme": {
+        "light": "Light",
+        "dark": "Dark",
+        "auto": "System"
+    },
+    "form": {
+        "email": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "error": "Email is invalid"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "error": "Password is required",
+            "requirements": {
+                "uppercase": "Password must have at least one uppercase letter",
+                "lowercase": "Password must have at least one lowercase letter",
+                "number": "Password must have at least one number",
+                "special": "Password must have at least one special character",
+                "length": "Password must be at least {length} characters long"
+            }
+        },
+        "confirmPassword": {
+            "label": "Confirm password",
+            "placeholder": "Confirm your password",
+            "error": "Passwords do not match"
+        },
+        "name": {
+            "label": "Name",
+            "placeholder": "Enter your name",
+            "error": "Name is required"
+        },
+        "acceptTermsAndConditions": "I accept the <a>terms and conditions</a>",
+        "submit": "Submit"
+    },
+    "routes": {
+        "dashboard": "Dashboard",
+        "admin": "Admin",
+        "profile": "Profile",
+        "news": "News",
+        "overview": "Overview",
+        "forecasts": "Forecasts",
+        "outlook": "Outlook",
+        "realTime": "Real Time"
+    }
+}
