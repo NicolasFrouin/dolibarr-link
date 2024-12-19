@@ -5,6 +5,7 @@ import { useDisclosure, useHeadroom } from '@mantine/hooks';
 import { Session } from 'next-auth';
 import AppNavbar from './AppNavbar';
 import AppHeader from './AppHeader';
+import AppFooter from './AppFooter';
 
 export default function AppLayout({
   session,
@@ -27,6 +28,7 @@ export default function AppLayout({
         breakpoint: 'sm',
         collapsed: { mobile: !mobileOpened, desktop: !desktopOpened },
       }}
+      layout='alt'
     >
       <AppShell.Header className='bg-gray-900'>
         <AppHeader
@@ -46,6 +48,9 @@ export default function AppLayout({
         />
       </AppShell.Navbar>
       <AppShell.Main>{children}</AppShell.Main>
+      <AppShell.Footer className='bg-gray-900'>
+        <AppFooter />
+      </AppShell.Footer>
     </AppShell>
   );
 }

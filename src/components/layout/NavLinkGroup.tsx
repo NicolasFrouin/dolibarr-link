@@ -37,7 +37,7 @@ export default function NavLinkGroup({
       href={item.link}
       key={item.label}
     >
-      {t(item.label)}
+      {t(item.label as Parameters<typeof t>[0])}
     </UnstyledButton>
   ));
 
@@ -59,6 +59,7 @@ export default function NavLinkGroup({
           <Box
             display='flex'
             className='items-center'
+            maw={'calc(100% - 16px)'}
           >
             <ThemeIcon
               variant='light'

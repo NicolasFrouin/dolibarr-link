@@ -72,6 +72,26 @@
         "overview": "Aperçu",
         "forecasts": "Prévisions",
         "outlook": "Perspectives",
-        "realTime": "Temps réel"
+        "realTime": "Temps réel",
+        "reporting_and_analysis": "Rapports et analyses",
+        "energy_reports": "Rapports énergétiques",
+        "financial_reports": "Rapports financiers",
+        "customizable_graphics": "Graphiques personnalisables",
+        "custom_data_tools": "Outils de données personnalisés",
+        "scenario_simulations": "Simulations de scénarios",
+        "custom_data_models": "Modèles de données personnalisés",
+        "export_generator": "Générateur d'exports",
+        "ai_insights": "Insights IA",
+        "operations": "Opérations",
+        "support_tickets": "Tickets de support",
+        "customer_management": "Gestion des clients",
+        "contracts_and_pricing": "Contrats et tarifications",
+        "billing_and_payments": "Facturation et paiements",
+        "energy_and_production_management": "Gestion de l'énergie et de la production",
+        "energy_trading_and_market_prices": "Trading d'énergie et prix du marché",
+        "site_monitoring": "Surveillance des sites",
+        "virtual_power_plant": "Centrale électrique virtuelle",
+        "settings": "Paramètres",
+        "help_and_documentation": "Aide et documentationn"
     }
 }
