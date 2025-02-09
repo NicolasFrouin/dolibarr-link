@@ -57,7 +57,11 @@
             "placeholder": "Entrez votre nom",
             "error": "Le nom est requis"
         },
-        "acceptTermsAndConditions": "J'accepte les <a>termes et conditions</a>",
+        "terms": {
+            "accept": "J'accepte les <a>termes et conditions</a>",
+            "label": "Termes et conditions",
+            "error": "Vous devez accepter les termes et conditions"
+        },
         "submit": "Envoyer"
     },
     "routes": {
